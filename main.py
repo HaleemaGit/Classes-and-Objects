@@ -59,6 +59,7 @@ while True:
             pass
             
         elif any(answer.lower() == f for f in ['no', 'n', '0']):
+            Bob.add_track(track = input("Add a new track here: "))
             pass
                
         
@@ -84,6 +85,7 @@ while True:
             Bob.get_score()
             
         elif any(answer.lower() == f for f in ['no', 'n', '0']):
+            Bob.add_track(track = input("Add a new track here: "))
             pass       
     else:
         print('Please enter yes or no')
